@@ -1,20 +1,73 @@
-body{
-    text-align: center;
-    margin: 0;
-    background-color:  hsl(226, 43%, 10%);
+body {
+  text-align: center;
+  margin: 0;
+  background-color: hsl(226, 43%, 10%);
 }
 
 .profile{
-    height: 400px;
+    height: 420px;
     width: 200px;
     border-radius: 20px;
     background-color: hsl(235, 45%, 61%);
+    position: absolute;
+    margin: 200px auto 300px 255px;
 }
-.Work{
-    background-color: hsl(235, 46%, 20%);
+.Jeremy-img{
+    width: 40%;
+    height: 80px;
+    padding: 20px 10px auto 10px;
+    margin: 20px auto 15px;
+}
+.Work {
+  background-color: hsl(235, 45%, 61%);
+  width: 200px;
+  height: 200px;
+  margin: 200px auto 300px 475px;
+  border-radius: 20px;
+  position: absolute;
+}
+.Play{
+    background-color: hsl(235, 45%, 61%);
+  width: 200px;
+  height: 200px;
+  margin: 200px auto 300px 695px;
+  border-radius: 20px;
+  position: absolute;
+}
+.Study{
+    background-color: hsl(235, 46%, 61%);
+  width: 200px;
+  height: 200px;
+  margin: 200px auto 300px 915px;
+  border-radius: 20px;
+  position: absolute;
+}
+.Exercise{
+    background-color: hsl(235, 46%, 61%);
+  width: 200px;
+  height: 200px;
+  margin: 420px auto 300px 475px;
+  border-radius: 20px;
+  position: absolute;
+}
+.Social{
+  background-color: hsl(235, 46%, 61%);
+  width: 200px;
+  height: 200px;
+  margin: 420px auto 300px 695px;
+  border-radius: 20px;
+  position: absolute;
+}
+.Self-care{
+    background-color: hsl(235, 46%, 61%);
     width: 200px;
     height: 200px;
-    margin: 300px auto 300px 465px;
+    margin: 420px auto 300px 915px;
     border-radius: 20px;
-
+    position: absolute;
+}
+footer.bottom-container{
+    margin: 90vh auto auto 50%;
+    position: absolute;
+    text-align: center;
 }
