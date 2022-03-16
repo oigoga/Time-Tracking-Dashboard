@@ -1,73 +1,132 @@
 body {
-  text-align: center;
-  margin: 0;
   background-color: hsl(226, 43%, 10%);
+  text-align: center;
+  margin: 150px 100px 150px 100px;
+}
+.container {
+  display: flex;
+  align-content: center;
+}
+.container div {
+  border: 1px;
+
+  justify-content: center;
 }
 
-.profile{
-    height: 420px;
-    width: 200px;
-    border-radius: 20px;
-    background-color: hsl(235, 45%, 61%);
-    position: absolute;
-    margin: 200px auto 300px 255px;
+
+.profile {
+  flex: 1;
+  margin: 10px 0 10px 10px;
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 20px;
 }
-.Jeremy-img{
-    width: 40%;
-    height: 80px;
-    padding: 20px 10px auto 10px;
-    margin: 20px auto 15px;
+.sections {
+  flex: 3;
+}
+.row-one {
+  display: flex;
+  margin-bottom: 10px;
+}
+.row-two {
+  display: flex;
+}
+.headtext {
+  font-family: "Rubik", sans-serif;
+  color: antiquewhite;
+}
+.card {
+  width: 30%;
+  align-items: flex-start;
+  border-radius: 20px;
+  margin: 10px 10px 10px 10px;
+  height: 230px;
+
+  display: flex;
+}
+.main{
+    width: fit-content;
+    height: 200px;
+    align-self: flex-end;
+
+}
+.main:hover{
+    background-color: hsl(235, 45%, 61%);
+}
+.card.orange {
+  background-color: hsl(15, 100%, 70%);
 }
 .Work {
   background-color: hsl(235, 45%, 61%);
-  width: 200px;
-  height: 200px;
-  margin: 200px auto 300px 475px;
   border-radius: 20px;
-  position: absolute;
 }
-.Play{
-    background-color: hsl(235, 45%, 61%);
-  width: 200px;
-  height: 200px;
-  margin: 200px auto 300px 695px;
+
+.card.blue {
+  background-color: hsl(195, 74%, 62%);
+}
+
+.Play {
+  background-color: hsl(235, 46%, 20%);
   border-radius: 20px;
-  position: absolute;
+  width: 100%;
 }
-.Study{
-    background-color: hsl(235, 46%, 61%);
-  width: 200px;
-  height: 200px;
-  margin: 200px auto 300px 915px;
+.card.red {
+  background-color: hsl(348, 100%, 68%);
+}
+.Study {
+  background-color: hsl(235, 46%, 20%);
   border-radius: 20px;
-  position: absolute;
+  width: 100%;
 }
-.Exercise{
-    background-color: hsl(235, 46%, 61%);
-  width: 200px;
-  height: 200px;
-  margin: 420px auto 300px 475px;
+.card.green {
+  background-color: hsl(145, 58%, 55%);
+}
+.Exercise {
+  background-color: hsl(235, 46%, 20%);
   border-radius: 20px;
-  position: absolute;
+  width: 100%;
 }
-.Social{
-  background-color: hsl(235, 46%, 61%);
-  width: 200px;
-  height: 200px;
-  margin: 420px auto 300px 695px;
+.card.purple {
+  background-color: hsl(264, 64%, 52%);
+}
+.Social {
+  background-color: hsl(235, 46%, 20%);
   border-radius: 20px;
-  position: absolute;
+  width: 100%;
 }
-.Self-care{
-    background-color: hsl(235, 46%, 61%);
-    width: 200px;
-    height: 200px;
-    margin: 420px auto 300px 915px;
-    border-radius: 20px;
+.card.yellow {
+  background-color: hsl(43, 84%, 65%);
+}
+.Self-care {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 20px;
+  width: 100%;
+}
+
+.img-icon {
+  width: 40px;
+  height: 40px;
+  background-image: none;
+}
+.j-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 2.5px;
+    border-color: antiquewhite;
     position: absolute;
+    margin: 12px auto auto 15px;
 }
-footer.bottom-container{
-    margin: 90vh auto auto 50%;
-    position: absolute;
-    text-align: center;
+.dots {
+    height: 20px;
+    width: 30px;
+    color: white;
+  }
+
+.profile-text {
+  background-color: hsl(246, 80%, 60%);
+  border-radius: 20px;
+  height: 70%;
+  display: flex;
+  flex-direction: row;
+
 }
